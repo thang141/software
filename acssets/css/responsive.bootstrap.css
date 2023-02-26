@@ -1,0 +1,82 @@
+@media(max-width : 991px){
+    .img-slider{
+        height: 150px;
+        width: 100%;
+        object-fit: contain;
+    }
+    .navbar-selection{
+        border-bottom: 1px solid black;
+    }
+    .decript{
+        font-size: 1.4rem;
+        margin-top: 0px;
+    }
+    .hover-menu {
+        width: auto;
+        text-align: start;
+    }
+
+    .hover-menu > a > b{
+        margin-left: 12px;
+    }
+    .wallpaper-content{
+        width: 150px;
+        height: 150px;
+    }
+
+    .wallpapers-name{
+        font-size: 16px;
+    }
+
+    .wallpapers-join-name {
+        font-size: 16px;
+    }
+    .blog-img.dt{
+        margin-bottom: 20px;
+    }
+
+    #current-time, #hvn{
+        font-size: 20px;
+    }
+}
+
+@media(max-width :768px){
+    .main-banner{
+        height:auto;
+    }
+    .d-flex.main-banner{
+        flex-direction: column;
+    }
+
+    .blog-img.dt{
+        margin-bottom: 70px;
+    }
+
+    .time{
+        position: relative;
+        margin: 0 auto;
+        width: 350px;
+        height: 350px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .dcr{
+        max-width: 100% ;
+        margin-bottom: 50px;
+    }
+
+    .col-9 > h2 {
+        margin-top: 0px;
+        margin-bottom: 0;
+        text-align: center;
+    }
+
+    .decript{
+        font-size: 1.6rem;
+        text-align: center;
+    }
+}
+
